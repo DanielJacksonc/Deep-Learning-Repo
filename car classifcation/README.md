@@ -99,11 +99,12 @@ The model is built using a convolutional neural network (CNN) with the following
 
 ### Training and Validation Accuracy
 
-![LOSS][alt text](image.png)
+
+![Accuracy](![alt text](image.png)) 
 
 ### Loss
 
-(![ACCURACY]!(image-1.png))
+![LOSS](![alt text](image-1.png))
 
 ### Sample Predictions
 
