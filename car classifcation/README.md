@@ -100,18 +100,18 @@ The model is built using a convolutional neural network (CNN) with the following
 ### Training and Validation Accuracy
 
 
-![Accuracy](![alt text](image.png)) 
+![alt text](image.png)) 
 
 ### Loss
 
-![LOSS](![alt text](image-1.png))
+![alt text](image-1.png))
 
 ### Sample Predictions
 
 | Image | Prediction | Actual |
 |-------|------------|--------|
-| ![Beautiful](![alt text](image-2.png)) | Beautiful  | Beautiful |
-| ![saUglyd](![alt text](image-3.png)) | Ugly | Ugly |
+| ![Beautiful](![alt text](image-3.png)) | Beautiful  | Beautiful |
+| ![Ugly](![alt text](image-2.png)) | Ugly | Ugly |
 
 
 ## Contributing
