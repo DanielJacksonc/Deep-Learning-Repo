@@ -1,6 +1,6 @@
 # Image Classification with Neural Networks
 
-A deep learning project for classifying images into happy and sad categories using convolutional neural networks (CNNs).
+A deep learning project for classifying images into Ugly cars and Beautiful cars categories using convolutional neural networks (CNNs).
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ A deep learning project for classifying images into happy and sad categories usi
 
 ## Introduction
 
-This project demonstrates the use of convolutional neural networks (CNNs) for image classification. The model is trained to classify images into two categories: happy and sad. This is a beginner-friendly project designed to help you understand the basics of deep learning and image classification.
+This project demonstrates the use of convolutional neural networks (CNNs) for image classification. The model is trained to classify images into two categories: beautiful cars and ugly cars. This is a project designed to help you understand the basics of deep learning and image classification.
 
 ## Features
 
@@ -30,7 +30,7 @@ This project demonstrates the use of convolutional neural networks (CNNs) for im
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/DanielJacksonc/DEEP-LEARNING
+    git clone https://github.com/DanielJacksonc/Deep-Learning-Repo/tree/main/car%20classifcation
     cd image-classification
     ```
 
@@ -41,7 +41,7 @@ This project demonstrates the use of convolutional neural networks (CNNs) for im
     ```
 3. install gpu:
     ```sh
-    since our computer has cpu, and its slower than GPU, we need to install GPU in pur tensorflow.
+    since our computer has cpu, and its slower than GPU, we need to install GPU in our tensorflow.
     make sure your python version is 3.9.5, or it will not work since it deprecated.
     and install tensor-gpu 
       # On Windows use `venv\Scripts\activate`
@@ -100,18 +100,18 @@ The model is built using a convolutional neural network (CNN) with the following
 ### Training and Validation Accuracy
 
 
-![alt text](image.png)) 
+![alt text](image.png) 
 
 ### Loss
 
-![alt text](image-1.png))
+![alt text](image-1.png)
 
 ### Sample Predictions
 
-| Image | Prediction | Actual |
-|-------|------------|--------|
-| ![Beautiful](![alt text](image-3.png)) | Beautiful  | Beautiful |
-| ![Ugly](![alt text](image-2.png)) | Ugly | Ugly |
+| Image | Prediction | Actual |  score  |
+|-------|------------|--------|---------|
+| ![alt text](image-3.png) | Beautiful  | Beautiful |0.9994758|
+| !![alt text](image-4.png) | Ugly | Ugly |0.3454212
 
 
 ## Contributing
